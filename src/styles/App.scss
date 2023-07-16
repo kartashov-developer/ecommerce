@@ -37,6 +37,6 @@ h1, h2, h3, h4, h5, h6 {
 font-size: inherit;
 font-weight: 400;
 }
-// Окончание обнуления стилей
 
-// CSS code
+@import url(canvas.scss);
+@import url(toolbar.scss);

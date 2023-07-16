@@ -7,6 +7,8 @@ import { useRoutes } from 'react-router-dom'
 
 import routes from './router'
 
+import './styles/App.scss'
+
 function App() {
   const content = useRoutes(routes)
 

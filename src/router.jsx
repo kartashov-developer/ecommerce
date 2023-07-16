@@ -1,13 +1,18 @@
 // react-router-dom
 // import { Navigate } from 'react-router-dom'
 // Layouts
-import WelcomePage from './layouts/WelcomePage'
+import WelcomePageLayout from './layouts/WelcomePageLayout/WelcomePageLayout'
+import DrawPageLayout from './layouts/DrawPageLayout/DrawPageLayout'
 
 const routes = [
   {
     path: '',
-    element: <WelcomePage />,
+    element: <WelcomePageLayout />,
   },
+  {
+    path: '/draw',
+    element: <DrawPageLayout />,
+  }
 ]
 
 export default routes
