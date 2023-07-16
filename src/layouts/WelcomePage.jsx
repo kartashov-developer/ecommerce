@@ -1,6 +1,16 @@
+import React from 'react';
+
+import Canvas from './Canvas/Canvas';
+import SettingBar from './SettingBar/SettingBar';
+import Toolbar from './Toolbar/Toolbar';
+
 const WelcomePage = () => {
   return (
-    <div>WelcomePage</div>
+    <div>
+      <Toolbar />
+      <SettingBar />
+      <Canvas />
+    </div>
   )
 }
 
